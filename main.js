@@ -45,9 +45,9 @@ class UI {
 		} else if (currentQuestionIndex === 5) {
 			currentQuestion = new Question ('What was the highest-grossing film of 2000?', ['Cast Away', 'Gladiator', 'Mission Impossible 2'], 'Mission Impossible 2');
 		} else if (currentQuestionIndex === 6) {
-			currentQuestion = new Question ('Who has written the most novels of all time?', ['Steven King', 'L Ron Hubbard', 'Kathleen Mary Lindsay'], 'L Ron Hubbard');
+			currentQuestion = new Question ('Who has written the most novels of all time?', ['Stephen King', 'L Ron Hubbard', 'Kathleen Mary Lindsay'], 'L Ron Hubbard');
 		} else if (currentQuestionIndex === 7) {
-			currentQuestion = new Question ('Which country has the highest life expextancy?', ['Japan', 'Switzerland', 'Hong Kong'], 'Hong Kong');
+			currentQuestion = new Question ('Which country has the highest life expectancy?', ['Japan', 'Switzerland', 'Hong Kong'], 'Hong Kong');
 		} else if (currentQuestionIndex === 8) {
 			currentQuestion = new Question ('Which country has the highest linguistic diversity?', ['Nigeria', 'Papua New Guinea', 'India'], 'Papua New Guinea');
 		} else if (currentQuestionIndex === 9) {
