@@ -1,0 +1,295 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"f",
+				"Favourite-Version"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"p",
+				"palegreen"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Porto/Desktop/CODING/Quiz app/index.html",
+		"/C/Users/Porto/Desktop/CODING/Filterable list mini-project/Index.html",
+		"/C/Users/Porto/Desktop/CODING/Filterable list mini-project/main.js",
+		"/C/Users/Porto/Desktop/CODING/OOP Crash Course (JS)/index.html",
+		"/C/Users/Porto/Desktop/CODING/OOP Crash Course (JS)/JS/6_classes.js",
+		"/C/Users/Porto/Desktop/CODING/OOP Crash Course (JS)/JS/1_basic_literals.js",
+		"/C/Users/Porto/Desktop/CODING/Quiz app/side.js",
+		"/C/Users/Porto/Desktop/CODING/JS test/test.js",
+		"/C/Users/Porto/Desktop/CODING/Quiz app/main.js",
+		"/C/Users/Porto/Desktop/CODING/Quiz app/style.css",
+		"/C/Users/Porto/Desktop/CODING/To-Do list project/index.html",
+		"/C/Users/Porto/Desktop/CODING/Booklist App/JS/main.js",
+		"/C/Users/Porto/Desktop/CODING/Booklist App/index.html",
+		"/C/Users/Porto/Desktop/CODING/Bar Website/index.html",
+		"/C/Users/Porto/Desktop/CODING/JS test/index.html",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/index.html",
+		"/C/Users/Porto/Desktop/CODING/Weather App project/index.html",
+		"/C/Users/Porto/Desktop/CODING/Weather App project/style.css",
+		"/C/Users/Porto/Desktop/CODING/Weather App project/main.js",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/previous-index.html",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/api-stuff.html",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/user-index.html",
+		"/C/Users/Porto/Desktop/CODING/Restaurant Website/index.html",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/process.php",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/user.json",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/users.json",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/sample.txt",
+		"/C/Users/Porto/Desktop/CODING/AJAX Crash Course/JS/main.js",
+		"/C/Users/Porto/Desktop/CODING/PDF Viewer/JS/main.js",
+		"/C/Users/Porto/Desktop/CODING/PDF Viewer/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/PDF Viewer/Index.html",
+		"/C/Users/Porto/Desktop/CODING/Game Collection App/index.html",
+		"/C/Users/Porto/Desktop/CODING/Game Collection App/JS/main.js",
+		"/C/Users/Porto/Desktop/CODING/Game Collection App/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/Bar Website/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/To-Do list project/JS/retry.js",
+		"/C/Users/Porto/Desktop/CODING/To-Do list project/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/To-Do list project/JS/main.js",
+		"/C/Users/Porto/Desktop/CODING/Booklist App/JS/backup.js",
+		"/C/Users/Porto/Desktop/CODING/Booklist App/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/OOP Crash Course (JS)/JS/2_constructor.js",
+		"/C/Users/Porto/Desktop/CODING/Restaurant Website/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/Restaurant Website/JS/main.js",
+		"/C/Users/Porto/Desktop/CODING/Restaurant Website/JS/side.js",
+		"/C/Users/Porto/Desktop/CODING/DOM manipulation 1/JS/main3.js",
+		"/C/Users/Porto/Desktop/CODING/Restaurant Website/CSS/sidestyle.css",
+		"/C/Users/Porto/Desktop/CODING/Bar Website/JS/main.js",
+		"/C/Users/Porto/Desktop/CODING/DOM manipulation 1/JS/main.js",
+		"/C/Users/Porto/Desktop/CODING/DOM manipulation 1/index.html",
+		"/C/Users/Porto/Desktop/CODING/JS Crash Course/cheatsheet.js",
+		"/C/Users/Porto/Desktop/CODING/CSS Crash Course/My Website/css/style.css",
+		"/C/Users/Porto/Desktop/CODING/CSS Crash Course/My Website/index.html",
+		"/C/Users/Porto/Desktop/CODING/HTML Crash Course test/Index.html",
+		"/C/Users/Porto/Desktop/CODING/Flexbox Crash Course/project.html",
+		"/C/Users/Porto/Desktop/CODING/Flexbox Crash Course/index.html",
+		"/C/Users/Porto/Desktop/CODING/CSS Crash Course/Cheat Sheet/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/DOM manipulation 1/CSS/style.css",
+		"/C/Users/Porto/Desktop/CODING/Bar Website/JS/side.js",
+		"/C/Users/Porto/Desktop/CODING/Bar Website/CSS/sidestyle.css",
+		"/C/Users/Porto/Desktop/CODING/Bar Website/side.html",
+		"/C/Users/Porto/Desktop/CODING/JS Crash Course/index.html",
+		"/C/Users/Porto/Desktop/CODING/Flexbox Crash Course/style.css",
+		"/C/Users/Porto/Desktop/CODING/National League Test Site/Css/style.css",
+		"/C/Users/Porto/Desktop/CODING/National League Test Site/Vanarama.html",
+		"/C/Users/Porto/Desktop/CODING/CSS Crash Course/CSS Grids/CSS/Styles.css",
+		"/C/Users/Porto/Desktop/CODING/CSS Crash Course/CSS Grids/index.html",
+		"/C/Users/Porto/Desktop/CODING/JS Crash Course/main.js",
+		"/C/Users/Porto/Desktop/CODING/National League Test Site/Sidestuff.html",
+		"/C/Users/Porto/Desktop/CODING/JSS Crash Course/cheatsheet.js",
+		"/C/Users/Porto/Desktop/CODING/JSS Crash Course/main.js",
+		"/C/Users/Porto/Desktop/CODING/JSS Crash Course/style.css",
+		"/C/Users/Porto/Desktop/CODING/JSS Crash Course/index.html",
+		"/C/Users/Porto/Desktop/CODING/CSS Crash Course/CSS Grids/index2.html",
+		"/C/Users/Porto/Desktop/CODING/CSS Crash Course/CSS Grids/index3.html",
+		"/C/Users/Porto/Desktop/CODING/CSS Crash Course/Cheat Sheet/Index.html",
+		"/C/Users/Porto/Desktop/CODING/Street Fighter Test Site/StreetFighter.html",
+		"/C/Users/Porto/Desktop/CODING/Street Fighter Test Site/css/style.css",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighter2.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/blog.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/SF2history.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/SF2Versions.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/SF2Gameplay.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/SF2Art.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/SF2Story.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighter.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/Index.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/Template.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighterA.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighter4.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighter3.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighter6.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighterEX.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighterM.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighterA2.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighterA3.html",
+		"/C/Users/Porto/Desktop/CODING/Test stuff/StreetFighter5.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

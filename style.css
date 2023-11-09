@@ -84,7 +84,7 @@ body{
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	font-size:30px;
+	font-size:28px;
 	font-weight:bold;
 	background-color:#656d8c;	
 	border-radius:5px;
@@ -107,8 +107,16 @@ body{
 	align-items:center;
 }
 
+.next-invisible {
+	display:none;
+}
 
-#next{
+
+.next{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-color:white;
 	height:50px;
 	width:100px;
 	border:solid 2px black;
@@ -122,6 +130,28 @@ body{
 #next:hover {
 	background-color:#a3a7bf;
 }
+
+#retry-box{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#retry{
+	height:50px;
+	width:100px;
+	border:solid 2px black;
+	border-radius:5px;
+	cursor:pointer;
+	font-size:18px;
+	font-family: "American Typewriter", "Courier New", monospace;
+	font-weight:bold;
+}
+
+#retry:hover {
+	background-color:#a3a7bf;
+}
+
 
 #sad-ethan{
 	height:210px;
