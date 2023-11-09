@@ -33,9 +33,7 @@ class UI {
 	static pageLoad() {
 
 	next.addEventListener('click', () => {
-		console.log('CLICKED');
 		nextClicks ++; 
-		console.log(nextClicks); 
 		UI.nextQuestion(); 
 	});
 
@@ -51,7 +49,6 @@ class UI {
 				}
 			});
 		box.addEventListener('click', (e) => {
-			console.log(e.target.textContent);
 			UI.displayAnswer(e.target.textContent); 
 			}); 
 		});	
@@ -95,8 +92,10 @@ class UI {
 			const optionB = document.querySelector('#option-b'); 
 			const optionC = document.querySelector('#option-c'); 
 			const optionBoxes = document.querySelectorAll('.option-box');
-			const questionContainer = document.querySelector('#question-container'); 
-			questionContainer.innerHTML = currentQuestion.question;  
+			const questionContainer = document.querySelector('#question-container');
+			questionContainer.classList.remove('question-container-correct', 'question-container-wrong'); 
+			questionContainer.classList.add('question-container-regular');  
+			questionContainer.innerHTML = currentQuestion.question; 
 			optionA.innerHTML = currentQuestion.options[0];
 			optionB.innerHTML = currentQuestion.options[1]; 
 			optionC.innerHTML = currentQuestion.options[2];			
@@ -122,19 +121,23 @@ class UI {
 			} 
 		});
 		// IF CLICKED ANSWER IS CORRECT, ADD TO TOTAL SCORE. MAINTAIN CLICK COUNT  
-		const questionContainer = document.querySelector('#question-container'); 
+		const questionContainer = document.querySelector('#question-container');
+		questionContainer.classList.remove('question-container-regular');  
 		if(answer === currentCorrect && clickCount === 0) {
 			questionContainer.innerHTML = 'Correct!';
+			questionContainer.classList.add('question-container-correct'); 
 			const total = document.querySelector('#total');
 			score ++; 
 			clickCount++;
-			total.innerHTML = `Total Score: ${score}`; 
-			console.log(currentQuestionIndex);			
+			total.innerHTML = `Total Score: <em class = "score-text"> ${score}</em>`; 
+			const scoreText = document.querySelector('.score-text'); 
+			UI.textChange(scoreText); 
+			setTimeout(function(){scoreText.style.color = 'black'},800);  		
 		} else if (clickCount === 0) {
 			questionContainer.innerHTML = 'Wrong!';
+			questionContainer.classList.add('question-container-wrong'); 
 			total.innerHTML = `Total Score: ${score}`;
-			clickCount++;
-			console.log(currentQuestionIndex);			
+			clickCount++;		
 		} 
 	}			
 	
@@ -144,8 +147,7 @@ class UI {
 		//INCREMENT TO THE NEXT QUESTION 
 		//DISPLAY THE CURRENT QUESTION IF CLICKCOUNT IS > 0
 		const next = document.querySelector('.next');  
-		next.style.display = 'none'; 
-		console.log('next question initialized'); 	
+		next.style.display = 'none'; 	
 		if (clickCount > 0) { 
 			clickCount = 0; 
 			currentQuestionIndex ++;
@@ -160,6 +162,9 @@ class UI {
 		}
 	}
 
+	static textChange(text) {
+		text.style.color = '#658c69'; 
+	}
 
 	static finalScore() {
 		//INCREASE THE SIZE OF THE FINAL SCORE & REMOVE OTHER DISPLAY CONTAINERS
@@ -168,6 +173,7 @@ class UI {
 		scoreContainer.id = ''; 
 		scoreContainer.id = 'final-score-container'; 
 		if (score < 6) {
+			scoreContainer.style.backgroundColor = '#8c4c49'; 
 			scoreContainer.innerHTML = `
 			<h1>Your total score is ${score}<h1>
 			<h1>You are NOT a smart genius.<h1>
@@ -190,6 +196,7 @@ class UI {
 			});
 		} else {
 			scoreContainer.style.color = '#e3c868'
+			scoreContainer.style.backgroundColor = '#658c69'; 
 			scoreContainer.innerHTML = `
 			<h1>Your total score is ${score}<h1>
 			<h1>CONGRATULATIONS! You are a SMART GENIUS!<h1>
@@ -224,6 +231,6 @@ UI.displayQuestion();
 
  
 
-// event listener to display correct answer on answer selection
+
 
 	
